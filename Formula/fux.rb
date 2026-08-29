@@ -1,28 +1,28 @@
 class Fux < Formula
   desc "Cross-platform terminal XML editor"
   homepage "https://github.com/MarcelInTO/fux"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/MarcelInTO/fux/releases/download/v0.4.0/fux-0.4.0-osx-arm64.tar.gz"
-      sha256 "89270d837d28d6e1fed1939738f3e403fcfb193f9f12c7a478809d7a77415276"
+      url "https://github.com/MarcelInTO/fux/releases/download/v0.5.0/fux-0.5.0-osx-arm64.tar.gz"
+      sha256 "7871898f6d351b1fa16a2ba3119f74e6db81a3b5bb1d11835e9adbb315f4079b"
     end
     on_intel do
-      url "https://github.com/MarcelInTO/fux/releases/download/v0.4.0/fux-0.4.0-osx-x64.tar.gz"
-      sha256 "ca1fffd3b7aac16e699005c93c3e67744a79f647a91eb88a92f7f3ecd89bcd39"
+      url "https://github.com/MarcelInTO/fux/releases/download/v0.5.0/fux-0.5.0-osx-x64.tar.gz"
+      sha256 "e95af770f62572a3318393259e141ae4e722f301203160dbe998682ca5085d46"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/MarcelInTO/fux/releases/download/v0.4.0/fux-0.4.0-linux-arm64.tar.gz"
-      sha256 "81a2f5da3af1edd859c1d6ecbee511c9538f944aa495465625e075aaa35695b8"
+      url "https://github.com/MarcelInTO/fux/releases/download/v0.5.0/fux-0.5.0-linux-arm64.tar.gz"
+      sha256 "a6e87a92ff7a386de3cb23a59af4edb21332ea910f6b535e00545102823d4f79"
     end
     on_intel do
-      url "https://github.com/MarcelInTO/fux/releases/download/v0.4.0/fux-0.4.0-linux-x64.tar.gz"
-      sha256 "69d9d1140567d5ecfea02280919fb247ab25f875eade7cdd57722729ec74634c"
+      url "https://github.com/MarcelInTO/fux/releases/download/v0.5.0/fux-0.5.0-linux-x64.tar.gz"
+      sha256 "aa0d95cdb3bdb4a0e898b347f9fd8edca818d8f7a190792499ffde41a7e14a53"
     end
   end
 
