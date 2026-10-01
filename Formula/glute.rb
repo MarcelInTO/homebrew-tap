@@ -4,28 +4,28 @@
 class Glute < Formula
   desc "Terminal dashboard for GitLab CI/CD pipeline and job statistics"
   homepage "https://github.com/MarcelInTO/glute"
-  version "0.3.1"
+  version "0.3.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/MarcelInTO/glute/releases/download/v0.3.1/glute-0.3.1-darwin-arm64.tar.gz"
-      sha256 "7fe42cf8dbe10e4a7d3e5ad5750ae5de664adae165e1c5cbddd9fab46708dc92"
+      url "https://github.com/MarcelInTO/glute/releases/download/v0.3.2/glute-0.3.2-darwin-arm64.tar.gz"
+      sha256 "9a649cd01db0b4fa568af315b9240723add73b5540ce4cbbd79aa4b0e1255fa4"
     end
     on_intel do
-      url "https://github.com/MarcelInTO/glute/releases/download/v0.3.1/glute-0.3.1-darwin-amd64.tar.gz"
-      sha256 "a69c4299d2824b9dd1576c95f7b0a2741014b21224176759228254271c84b4d3"
+      url "https://github.com/MarcelInTO/glute/releases/download/v0.3.2/glute-0.3.2-darwin-amd64.tar.gz"
+      sha256 "ba9a2798e4e4d7af1507dc459838f1c7477b6e941c2fcedf4b7528a0270b5aa1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/MarcelInTO/glute/releases/download/v0.3.1/glute-0.3.1-linux-arm64.tar.gz"
-      sha256 "dd46094d5bdb5d99ae1f699600ba90ed2805d09327cc720e2cc816536fbc20f5"
+      url "https://github.com/MarcelInTO/glute/releases/download/v0.3.2/glute-0.3.2-linux-arm64.tar.gz"
+      sha256 "4e3a0e4d48c869058368ba466d64f1cd110b113874b0cf69cdd5df480d76a825"
     end
     on_intel do
-      url "https://github.com/MarcelInTO/glute/releases/download/v0.3.1/glute-0.3.1-linux-amd64.tar.gz"
-      sha256 "d57696b19e4804cfa104a5464a68796b3abae41a17481bc9c077d195f5ce636e"
+      url "https://github.com/MarcelInTO/glute/releases/download/v0.3.2/glute-0.3.2-linux-amd64.tar.gz"
+      sha256 "9175cd528982b0c13a6dc594aef5a17f715b31da143f6bd4867f82321643119d"
     end
   end
 
